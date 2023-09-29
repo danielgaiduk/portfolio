@@ -8,9 +8,10 @@
 
 <style global>
 	.imprint :global(h1) {
-		@apply h4 font-bold;
+		@apply text-4xl font-bold;
 	}
+
 	.imprint :global(h3) {
-		@apply h7 font-bold;
+		@apply text-2xl font-bold;
 	}
 </style>

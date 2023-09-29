@@ -8,10 +8,10 @@
 
 <style global>
 	.privacy :global(h1) {
-		@apply h4 font-bold;
+		@apply text-4xl font-bold;
 	}
 
 	.privacy :global(h2) {
-		@apply h7 font-bold;
+		@apply text-2xl font-bold;
 	}
 </style>
