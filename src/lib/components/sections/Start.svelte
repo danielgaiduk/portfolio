@@ -17,6 +17,6 @@
 		{@html $t('start.quote')}
 	</Text>
 	<FlyUp>
-		<img loading="lazy" alt={$t('start.image')} src={background} />
+		<img width="100%" height="100%" alt={$t('start.image')} src={background} />
 	</FlyUp>
 </Wrapper>

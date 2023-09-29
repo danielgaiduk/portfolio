@@ -6,9 +6,6 @@
 	import { removeOverflowHidden } from '$lib/stores'
 	import { t } from '$lib/translations'
 
-	let removeOverflow = false
-
-	$: canonical = $page?.url?.origin
 	$: description = $t($page?.data?.description)
 	$: paths = getAllLocalizedPaths($page?.url)
 	$: title = $t($page?.data?.title)
@@ -24,7 +21,6 @@
 <svelte:head>
 	<title>{title}</title>
 	<meta name="description" content={description} />
-	<link rel="canonical" href={canonical} />
 	{#each paths as { href, hreflang }}
 		<link rel="alternate" {hreflang} {href} />
 	{/each}

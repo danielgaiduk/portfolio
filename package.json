@@ -19,7 +19,7 @@
 	"devDependencies": {
 		"@playwright/test": "^1.38.1",
 		"@svelte-plugins/tooltips": "^0.1.8",
-		"@sveltejs/adapter-vercel": "^3.0.3",
+		"@sveltejs/adapter-auto": "^2.1.0",
 		"@sveltejs/kit": "^1.25.1",
 		"@typescript-eslint/eslint-plugin": "^6.7.3",
 		"@typescript-eslint/parser": "^6.7.3",
