@@ -1,0 +1,5 @@
+export { default as AboutMe } from './AboutMe.svelte'
+export { default as Resume } from './Resume.svelte'
+export { default as Start } from './Start.svelte'
+export { default as Techstack } from './Techstack.svelte'
+export { default as Wrapper } from './Wrapper.svelte'

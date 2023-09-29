@@ -1,0 +1,20 @@
+{
+	"headline": "About me",
+	"text": {
+		"1": "I am <span class=\"text-size-inherit !text-primary-highlight\">Daniel Gaiduk</span> and I am a <span class=\"text-size-inherit !text-primary-highlight\">trained full stack developer</span>.",
+		"2": "I am an all-rounder responsible for both <span class=\"text-size-inherit !text-primary-highlight\">front-end</span>- and <span class=\"text-size-inherit !text-primary-highlight\">back-end</span>-application development. I have a thorough understanding of the technical fundamentals of web and software development and am able to build complex applications from scratch or extend existing applications.",
+		"3": "I am a creative and innovative thinker who is always looking for new ways to improve applications. I'm also a team player who enjoys working with others to create great things.",
+		"4": "<span class=\"text-size-inherit !text-primary-highlight\">Learning, programming and coffee - the three pillars of my life.</span>"
+	},
+	"characteristics": [
+		"Able to learn",
+		"Committed",
+		"Communicative",
+		"Flexible",
+		"Independent",
+		"Inquisitive",
+		"Motivated",
+		"Reliable",
+		"Team player"
+	]
+}

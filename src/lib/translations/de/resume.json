@@ -1,0 +1,44 @@
+{
+	"headline": "Erfahrung",
+	"used_technologies": "Verwendete Technologien",
+	"view": {
+		"title": "Full Stack Entwickler",
+		"description": "Meine Aufgabe war die Erstellung einer Plattform für die Vermittlung zwischen Immobilienverkäufern und Kunden (Frontend & Backend)."
+	},
+	"micromerce": {
+		"title": "TypeScript Entwickler",
+		"description": "Meine Aufgabe war die Datenmigration von CRM-Systemen von Fitnessketten zu Magicline."
+	},
+	"pwc": {
+		"title": "Full Stack Entwickler",
+		"description": "Meine Aufgabe war die Weiterentwicklung einer Server-Managment-Platform (Frontend und Backend)."
+	},
+	"telekom": {
+		"title": "Frontend Entwickler",
+		"description": "Meine Aufgabe war Weiterentwicklung der MagentaEINS Platform."
+	},
+	"plentymarkets": {
+		"title": "Full Stack Entwickler",
+		"description": "Meine Aufgabe war die Weiterentwicklung und Instandhaltung der eigenen E-Commerce Plattform."
+	},
+	"swym": {
+		"title": "Full Stack Entwickler",
+		"description": "Meine Aufgabe war die Weiterentwicklung, Instandhaltung und Optimierung einer Webapplikation (Frontend und Backend) für die Verwaltung von Kunden."
+	},
+	"gaiduk": {
+		"title": "Full Stack Entwickler",
+		"description": "Meine Aufgabe war die Entwicklung einer Webapplikation (Frontend und Backend) für die Verwaltung von Immobilien und Mietern."
+	},
+	"quirin": {
+		"title": "Frontend Entwickler",
+		"description": "Meine Aufgabe war die Entwicklung einer Webapplikation (Frontend) für die Erstellung von Kundenkonten, hierbei habe ich die Designvorlagen umgesetzt und alle Funktionalitäten implementiert."
+	},
+	"eam": {
+		"title": "Frontend Entwickler",
+		"description": "Meine Aufgabe war die Entwicklung einer Webapplikation (Frontend) für die Kostenoptimierung, hierbei habe ich einige Designvorlagen und Funktionalitäten umgesetzt und implementiert."
+	},
+	"insignio": {
+		"title": "Ausbildung Fachinformatiker Anwengungsentwicklung",
+		"description": "Von Anpassungen von CRM- und Wordpress/Typo3-Systemen bis hin zur Erstellung von kompletten Webapplikationen."
+	}
+}

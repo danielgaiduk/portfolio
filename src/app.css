@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+
+@tailwind utilities;
+
+@layer base {
+	:root {
+		--tooltip-background-color: theme('colors.primary.dark') !important;
+		--tooltip-color: theme('colors.white') !important;
+	}
+
+	h1 {
+		@apply h1;
+	}
+
+	h2 {
+		@apply h2;
+	}
+
+	h3 {
+		@apply h3;
+	}
+
+	h4 {
+		@apply h4;
+	}
+
+	h5 {
+		@apply h5;
+	}
+
+	h6 {
+		@apply h6;
+	}
+
+	a,
+	span:not(.text-size-inherit),
+	p {
+		@apply text-base sm:text-lg lg:text-xl;
+	}
+
+	@font-face {
+		font-family: 'Shapiro';
+		src: url('/fonts/shapiro/shapiro_95_super_wide.otf') format('opentype');
+		font-weight: 400;
+		font-style: normal;
+		font-display: swap;
+	}
+
+	@font-face {
+		font-family: 'Switzer';
+		src: url('/fonts/switzer/Switzer-Regular.woff2') format('woff2');
+		font-weight: 400;
+		font-style: normal;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Switzer';
+		src: url('/fonts/switzer/Switzer-Semibold.woff2') format('woff2');
+		font-weight: 600;
+		font-style: normal;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Switzer';
+		src: url('/fonts/switzer/Switzer-Bold.woff2') format('woff2');
+		font-weight: 700;
+		font-style: normal;
+		font-display: swap;
+	}
+}
+
+@layer components {
+	.h1 {
+		@apply text-4xl sm:text-6xl lg:text-8xl;
+	}
+
+	.h2 {
+		@apply text-3xl sm:text-5xl lg:text-7xl;
+	}
+
+	.h3 {
+		@apply text-2xl sm:text-4xl lg:text-6xl;
+	}
+
+	.h4 {
+		@apply text-xl sm:text-3xl lg:text-5xl;
+	}
+
+	.h5 {
+		@apply text-lg sm:text-2xl lg:text-4xl;
+	}
+
+	.h6 {
+		@apply text-base sm:text-xl lg:text-3xl;
+	}
+
+	.h7 {
+		@apply text-sm sm:text-lg lg:text-2xl;
+	}
+}
+
+.animate-underline {
+	@apply relative after:bg-primary-highlight after:absolute after:h-0.5 after:w-0 after:-bottom-0.5 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer;
+}
+
+.animate-fill-color-switch {
+	@apply transition-colors duration-500 fill-white hover:fill-primary-highlight;
+}
+
+.animate-stroke-color-switch {
+	@apply transition-colors duration-500 fill-white hover:stroke-primary-highlight;
+}
+
+.animate-fly-up,
+.animate-fly-up-headline {
+	@apply translate-y-full;
+}
+
+.umlaut {
+	@apply relative before:content-['..'] before:w-full before:text-center before:text-sm before:absolute before:top-0 before:right-1/2 before:transform before:translate-x-1/2 before:-translate-y-1/2;
+}
