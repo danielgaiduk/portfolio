@@ -101,7 +101,7 @@
 				<div class="flex flex-wrap gap-2 mt-4">
 					{#each technologies as technologie}
 						<Text
-							class="font-semibold text-white"
+							class="font-semibold text-white lowercase text-base"
 							wrapperClass="h-10 w-40 border border-primary-normal/50 rounded-l-lg rounded-r-lg flex items-center justify-center"
 						>
 							{technologie}
