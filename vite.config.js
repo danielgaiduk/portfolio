@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitest/config'
+import { imagetools } from 'vite-imagetools'
 import { sentrySvelteKit } from '@sentry/sveltekit'
 import { sveltekit } from '@sveltejs/kit/vite'
 
@@ -11,7 +12,8 @@ export default defineConfig({
 				project: 'portfolio'
 			}
 		}),
-		sveltekit()
+		sveltekit(),
+		imagetools()
 	],
 	test: {
 		include: ['src/**/*.{test,spec}.{js,ts}']
