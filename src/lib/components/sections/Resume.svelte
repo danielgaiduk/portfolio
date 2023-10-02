@@ -43,7 +43,7 @@
 			company: 'Swym',
 			date: '06/2021 - 08/2021',
 			description: $t('resume.swym.description'),
-			technologies: ['Vue', 'Nuxt', 'TypeScript', 'Scss', 'PostCss', 'Material Design']
+			technologies: ['Vue', 'Nuxt', 'TypeScript', 'Scss', 'Material Design']
 		},
 		{
 			title: $t('resume.gaiduk.title'),
@@ -67,14 +67,14 @@
 			company: 'Quirin Privatbank AG',
 			date: '12/2020 - 06/2021',
 			description: $t('resume.quirin.description'),
-			technologies: ['Svelte', 'Routify', 'TypeScript', 'TailwindCss', 'Jest', 'PostCss', 'Scss']
+			technologies: ['Svelte', 'Routify', 'TypeScript', 'TailwindCss', 'Jest', 'Scss']
 		},
 		{
 			title: $t('resume.eam.title'),
 			company: 'EAM GmbH & Co. KG',
 			date: '01/2020 - 01/2021',
 			description: $t('resume.eam.description'),
-			technologies: ['Svelte', 'Sapper', 'TypeScript', 'TailwindCss', 'Jest', 'PostCss', 'Scss']
+			technologies: ['Svelte', 'Sapper', 'TypeScript', 'TailwindCss', 'Jest', 'Scss']
 		},
 		{
 			title: $t('resume.insignio.title'),
