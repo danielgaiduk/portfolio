@@ -1,17 +1,17 @@
+import { dev } from '$app/environment'
+import { LOCALE_COOKIE_NAME } from '$lib/constants'
 import { PUBLIC_SENTRY_DSN } from '$env/static/public'
 import { sequence } from '@sveltejs/kit/hooks'
-import { dev } from '$app/environment'
-import * as Sentry from '@sentry/sveltekit'
 import {
 	buildCookie,
 	buildLocalizedUrl,
 	getLocaleFromRequest,
 	isLocaleAvailable,
 	log,
-	parseCookie,
 	redirect,
 	replaceHtmlFragments
 } from '$lib/utils'
+import * as Sentry from '@sentry/sveltekit'
 import type { Handle } from '@sveltejs/kit'
 
 Sentry.init({
@@ -23,7 +23,7 @@ Sentry.init({
 export const handle = sequence(Sentry.sentryHandle(), (async ({ event, resolve }) => {
 	log('SERVER HOOK CALLED')
 
-	const { params, request, route, url } = event
+	const { params, request, route, url, cookies } = event
 	const { locale = '' } = params
 	const { id } = route
 
@@ -31,19 +31,18 @@ export const handle = sequence(Sentry.sentryHandle(), (async ({ event, resolve }
 		return resolve(event)
 	}
 
-	const cookie = parseCookie(request)
-
 	if (!id) {
-		const locale = getLocaleFromRequest(cookie, request)
+		const locale = getLocaleFromRequest(cookies, request)
 
 		return redirect(`/${locale}/404`)
 	}
 
 	if (!isLocaleAvailable(locale)) {
-		const location = buildLocalizedUrl(cookie, request, url)
+		const location = buildLocalizedUrl(cookies, request, url)
 
 		if (location) return redirect(location)
 	}
+
 	try {
 		const { characteristics } = await import(`./lib/translations/${locale}/aboutme.json`)
 
@@ -52,18 +51,15 @@ export const handle = sequence(Sentry.sentryHandle(), (async ({ event, resolve }
 		//do nothing
 	}
 
+	cookies.set(LOCALE_COOKIE_NAME, locale)
 	event.locals.locale = locale
 
-	const response = await resolve(
+	return await resolve(
 		event,
 		replaceHtmlFragments({
 			'%lang%': locale
 		})
 	)
-
-	response.headers.append('set-cookie', buildCookie('locale', locale))
-
-	return response
 }) satisfies Handle)
 
 export const handleError = Sentry.handleErrorWithSentry()
