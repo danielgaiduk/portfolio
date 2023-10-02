@@ -3,7 +3,6 @@ import { LOCALE_COOKIE_NAME } from '$lib/constants'
 import { PUBLIC_SENTRY_DSN } from '$env/static/public'
 import { sequence } from '@sveltejs/kit/hooks'
 import {
-	buildCookie,
 	buildLocalizedUrl,
 	getLocaleFromRequest,
 	isLocaleAvailable,
