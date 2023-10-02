@@ -1,7 +1,8 @@
 <script lang="ts">
-	import { Headline, Text, Wrapper, FlyUp } from '$lib/components'
-	import background from '$lib/images/background.webp'
+	import { Headline, Text, Wrapper, FlyUp, Picture } from '$lib/components'
 	import { t } from '$lib/translations'
+	// @ts-ignore
+	import background from '$lib/images/background.webp?w=500;900;1200&format=avif;webp;jpg&as=picture'
 </script>
 
 <Wrapper id="start">
@@ -16,7 +17,7 @@
 	<Text class="max-w-2xl mx-auto text-center">
 		{@html $t('start.quote')}
 	</Text>
-	<FlyUp>
-		<img width="100%" height="100%" alt={$t('start.image')} src={background} />
+	<FlyUp class="flex items-center justify-center">
+		<Picture loading="eager" meta={background} alt={$t('start.image')} />
 	</FlyUp>
 </Wrapper>
