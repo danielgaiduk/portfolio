@@ -20,5 +20,4 @@ export const LOCALES = ['en', 'de']
 export const PHONE_NUMBER = '+49 175 - 8606312'
 
 export const KEBAB_APP_NAME = toKebabCase(APP_NAME)
-export const AUTH_COOKIE_NAME = `${KEBAB_APP_NAME}_auth`
 export const LOCALE_COOKIE_NAME = `${KEBAB_APP_NAME}_locale`
