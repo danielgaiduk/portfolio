@@ -8,7 +8,7 @@
 			company: 'View GmbH',
 			date: '01/2023 - 09/2023',
 			description: $t('resume.view.description'),
-			technologies: ['TypeScript', 'NodeJs', 'XML', 'CSV']
+			technologies: ['Svelte', 'SvelteKit', 'TypeScript', 'Pocketbase', 'TailwindCss']
 		},
 		{
 			title: $t('resume.micromerce.title'),
