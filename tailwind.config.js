@@ -7,8 +7,7 @@ export default {
 		extend: {
 			animation: {
 				'fly-up': 'fly-up 1s forwards 500ms',
-				'fly-up-headline': 'fly-up-headline 1s forwards 500ms',
-				'wide-in': 'wide-in 750ms forwards'
+				'fly-up-headline': 'fly-up-headline 1s forwards 500ms'
 			},
 			colors: {
 				primary: {
@@ -30,10 +29,6 @@ export default {
 				'fly-up-headline': {
 					'0%': { transform: 'translatey(100%)' },
 					'100%': { transform: 'translatey(10%)' }
-				},
-				'wide-in': {
-					'0%': { width: '100%' },
-					'100%': { width: '0' }
 				}
 			}
 		}
