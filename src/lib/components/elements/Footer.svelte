@@ -1,7 +1,6 @@
 <script>
 	import { AUTHOR_NAME } from '$lib/constants'
 	import { GithubIcon, XingIcon, Link } from '$lib/components'
-	import { page } from '$app/stores'
 	import { t } from '$lib/translations'
 
 	const SOCALMEDIA_MAPPING = [
