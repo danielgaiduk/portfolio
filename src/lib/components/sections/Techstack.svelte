@@ -30,6 +30,7 @@
 		Wrapper
 	} from '$lib/components'
 	import { t } from '$lib/translations'
+	// eslint-disable-next-line
 	// @ts-ignore
 	import { tooltip } from '@svelte-plugins/tooltips'
 

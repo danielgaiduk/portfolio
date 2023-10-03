@@ -3,6 +3,7 @@
 </script>
 
 <div class="privacy bg-white text-black p-4 space-y-6">
+	<!-- eslint-disable-next-line -->
 	{@html $t('privacy.text')}
 </div>
 

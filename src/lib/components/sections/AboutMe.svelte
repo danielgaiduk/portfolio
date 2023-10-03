@@ -13,11 +13,13 @@
 
 <Wrapper id="aboutme">
 	<Headline type="h2">
+		<!-- eslint-disable-next-line -->
 		{@html $t('aboutme.headline')}
 	</Headline>
 	<div class="space-y-6">
 		{#each TEXT_MAPPING as value}
 			<Text class="font-semibold">
+				<!-- eslint-disable-next-line -->
 				{@html value}
 			</Text>
 		{/each}
@@ -30,6 +32,7 @@
 				wrapperClass="border border-primary-normal/50 rounded-l-full rounded-r-full py-4 px-6"
 				class="h7 font-shapiro text-white uppercase -mb-1 text-center"
 			>
+				<!-- eslint-disable-next-line -->
 				{@html value}
 			</Text>
 		{/each}
