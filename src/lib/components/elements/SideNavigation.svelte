@@ -78,7 +78,7 @@
 						{label}
 						class="animate-underline text-2xl"
 						href={`/${$page?.data?.locale}${href ? `/#${href}` : ''}`}
-						on:clicked={closeSidebar}
+						on:click={closeSidebar}
 					/>
 				{/each}
 				<div class="flex items-center justify-center gap-6">
@@ -92,7 +92,7 @@
 
 			<div class="mt-auto p-4">
 				{#each ADDITIONAL_LINKS as { href, label }, i}
-					<Link on:clicked={closeSidebar} {href} {label} />
+					<Link on:click={closeSidebar} {href} {label} />
 					{#if i !== ADDITIONAL_LINKS.length - 1}
 						<Delimiter />
 					{/if}

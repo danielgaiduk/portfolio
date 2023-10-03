@@ -1,14 +1,10 @@
 <script lang="ts">
-	import { createEventDispatcher } from 'svelte'
-
 	export let label: string
 	export let href: string
-
-	const dispatch = createEventDispatcher()
 </script>
 
 <a
-	on:click={() => dispatch('clicked')}
+	on:click
 	{...$$restProps}
 	{href}
 	aria-label={label}
