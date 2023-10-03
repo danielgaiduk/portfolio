@@ -28,7 +28,7 @@
 
 <Navbar />
 
-<main class="space-y-24 max-w-7xl mx-auto p-4 my-12">
+<main class="space-y-24 max-w-7xl w-full mx-auto p-4 my-12">
 	<slot />
 </main>
 
