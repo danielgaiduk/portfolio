@@ -43,9 +43,9 @@
 		@apply text-sm sm:text-lg lg:text-2xl;
 	}
 
-	a,
+	a:not(.text-size-inherit),
 	span:not(.text-size-inherit),
-	p {
+	p:not(.text-size-inherit) {
 		@apply text-base sm:text-lg lg:text-xl;
 	}
 
@@ -98,5 +98,5 @@
 }
 
 .umlaut {
-	@apply relative before:content-['..'] before:w-full before:text-center before:text-sm before:absolute before:top-0 before:right-1/2 before:transform before:translate-x-1/2 before:-translate-y-1/2;
+	@apply relative before:content-['..'] before:text-sm before:absolute before:right-1/2 before:transform before:translate-x-1/2 before:-translate-y-1/2;
 }
