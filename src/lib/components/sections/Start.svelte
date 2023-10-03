@@ -17,6 +17,6 @@
 		{@html $t('start.quote')}
 	</Text>
 	<FlyUp class="flex items-center justify-center">
-		<img src="/images/background.webp" alt={$t('start.image')} />
+		<img height="100%" width="100%" src="/images/background.webp" alt={$t('start.image')} />
 	</FlyUp>
 </Wrapper>
