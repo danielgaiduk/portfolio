@@ -2,39 +2,39 @@
 	"headline": "Work experience",
 	"used_technologies": "Technologies used",
 	"view": {
-		"title": "Full Stack Entwickler",
+		"title": "Full Stack Developer",
 		"description": "My task was to create a platform for mediation between real estate sellers and clients (Frontend & Backend)."
 	},
 	"micromerce": {
-		"title": "TypeScript Entwickler",
+		"title": "TypeScript Developer",
 		"description": "My task was the data migration from CRM systems of fitness chains to Magicline."
 	},
 	"pwc": {
-		"title": "Full Stack Entwickler",
+		"title": "Full Stack Developer",
 		"description": "My task was the further development of a server management platform (frontend and backend)."
 	},
 	"telekom": {
-		"title": "Frontend Entwickler",
+		"title": "Frontend Developer",
 		"description": "My task was the further development of the MagentaEINS Platform."
 	},
 	"plentymarkets": {
-		"title": "Full Stack Entwickler",
+		"title": "Full Stack Developer",
 		"description": "My task was the further development and maintenance of our own e-commerce platform."
 	},
 	"swym": {
-		"title": "Full Stack Entwickler",
+		"title": "Full Stack Developer",
 		"description": "My task was the further development, maintenance and optimization of a web application (frontend and backend) for the management of customers."
 	},
 	"gaiduk": {
-		"title": "Full Stack Entwickler",
+		"title": "Full Stack Developer",
 		"description": "My task was to develop a web application (frontend and backend) for property and tenant management."
 	},
 	"quirin": {
-		"title": "Frontend Entwickler",
+		"title": "Frontend Developer",
 		"description": "My task was the development of a web application (frontend) for the creation of customer accounts, here I implemented the design templates and implemented all functionalities."
 	},
 	"eam": {
-		"title": "Frontend Entwickler",
+		"title": "Frontend Developer",
 		"description": "My task was the development of a web application (frontend) for cost optimization, where I implemented some design templates and functionalities."
 	},
 	"insignio": {
