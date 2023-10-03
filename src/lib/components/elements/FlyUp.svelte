@@ -1,13 +1,18 @@
 <script>
-	import { removeOverflowHidden } from '$lib/stores'
-
 	export let isHeadline = false
+	export let removeOverflowHidden = false
 
-	$: animation = isHeadline ? 'animate-fly-up-headline' : 'animate-fly-up'
+	let hasOverflowHidden = true
+
+	if (removeOverflowHidden) {
+		setTimeout(() => (hasOverflowHidden = false), 1000)
+	}
 </script>
 
-<div class:overflow-hidden={!$removeOverflowHidden}>
-	<div class="{animation} {$$restProps.class || ''}">
+<div class:overflow-hidden={hasOverflowHidden}>
+	<div
+		class="{isHeadline ? 'animate-fly-up-headline' : 'animate-fly-up'} {$$restProps.class || ''}"
+	>
 		<slot />
 	</div>
 </div>

@@ -34,8 +34,6 @@
 	// @ts-ignore
 	import { tooltip } from '@svelte-plugins/tooltips'
 
-	let overflowHiddenActive = true
-
 	const LANGUAGE_MAPPING = [
 		{ Icon: Html5Icon, label: 'HTML5' },
 		{ Icon: Css3Icon, label: 'CSS3' },
@@ -86,7 +84,7 @@
 		{#each TECHSTACK_MAPPING as { label, values }}
 			<div class="space-y-3">
 				<Text class="font-bold uppercase">{label}</Text>
-				<FlyUp {overflowHiddenActive} class="flex flex-wrap items-center gap-4">
+				<FlyUp removeOverflowHidden class="flex flex-wrap items-center gap-4">
 					{#each values as { label, Icon }}
 						<div use:tooltip={{ content: label, autoPosition: true }}>
 							<Icon class="h-16" />

@@ -3,20 +3,12 @@
 	import { getAllLocalizedPaths } from '$lib/utils'
 	import { Navbar, Footer } from '$lib/components'
 	import { page } from '$app/stores'
-	import { removeOverflowHidden } from '$lib/stores'
 	import { t } from '$lib/translations'
 
 	$: description = $t($page?.data?.description)
 	$: paths = getAllLocalizedPaths($page?.url)
 	$: title = $t($page?.data?.title)
-
-	function removeOverFlow(event: AnimationEvent) {
-		if (event.animationName !== 'fly-up') return
-		$removeOverflowHidden = true
-	}
 </script>
-
-<svelte:window on:animationend={removeOverFlow} />
 
 <svelte:head>
 	<title>{title}</title>
