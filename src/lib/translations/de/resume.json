@@ -3,42 +3,42 @@
 	"used_technologies": "Verwendete Technologien",
 	"view": {
 		"title": "Full Stack Entwickler",
-		"description": "Meine Aufgabe war die Erstellung einer Plattform für die Vermittlung zwischen Immobilienverkäufern und Kunden (Frontend & Backend)."
+		"description": "Meine Aufgabe war die Erstellung einer Plattform für die Vermittlung zwischen Immobilienkäufern und -verkäufern."
 	},
 	"micromerce": {
 		"title": "TypeScript Entwickler",
-		"description": "Meine Aufgabe war die Datenmigration von CRM-Systemen von Fitnessketten zu Magicline."
+		"description": "Meine Aufgabe war die Datenmigration von CRM-Systemen von Fitnessketten zu Magicline. Hierfür musste ich alle Daten des Quellsystems in das richtige Format des Zielsystems formatieren."
 	},
 	"pwc": {
 		"title": "Full Stack Entwickler",
-		"description": "Meine Aufgabe war die Weiterentwicklung einer Server-Managment-Platform (Frontend und Backend)."
+		"description": "Meine Aufgabe war die Weiterentwicklung einer Server-Management-Web-Plattform."
 	},
 	"telekom": {
 		"title": "Frontend Entwickler",
-		"description": "Meine Aufgabe war Weiterentwicklung der MagentaEINS Platform."
+		"description": "Meine Aufgabe war die Weiterentwicklung der MagentaEINS Web-Plattform. Ich war hauptsächlich für die Logik zum Vergleichen von Tarifen und Handys verantwortlich."
 	},
 	"plentymarkets": {
 		"title": "Full Stack Entwickler",
-		"description": "Meine Aufgabe war die Weiterentwicklung und Instandhaltung der eigenen E-Commerce Plattform."
+		"description": "Meine Aufgabe war die Weiterentwicklung und Instandhaltung der eigenen E-Commerce Plattform. Zusätzlich war ich für den Prozess des automatisierten Erstellens eines Test-Shops für Endkunden zuständig. Hierzu gehören Formulare, interne Logik und ein neues Shop-Theme."
 	},
 	"swym": {
 		"title": "Full Stack Entwickler",
-		"description": "Meine Aufgabe war die Weiterentwicklung, Instandhaltung und Optimierung einer Webapplikation (Frontend und Backend) für die Verwaltung von Kunden."
+		"description": "Meine Aufgabe war die Weiterentwicklung, Instandhaltung und Optimierung einer Webapplikation für die Verwaltung von Kunden."
 	},
 	"gaiduk": {
 		"title": "Full Stack Entwickler",
-		"description": "Meine Aufgabe war die Entwicklung einer Webapplikation (Frontend und Backend) für die Verwaltung von Immobilien und Mietern."
+		"description": "Meine Aufgabe war die Entwicklung einer Webapplikation für die Verwaltung von Immobilien und Mietern."
 	},
 	"quirin": {
 		"title": "Frontend Entwickler",
-		"description": "Meine Aufgabe war die Entwicklung einer Webapplikation (Frontend) für die Erstellung von Kundenkonten, hierbei habe ich die Designvorlagen umgesetzt und alle Funktionalitäten implementiert."
+		"description": "Meine Aufgabe war die Entwicklung einer Webapplikation für die Erstellung von Kundenkonten, hierbei habe ich die Designvorlagen umgesetzt und alle Funktionalitäten implementiert."
 	},
 	"eam": {
 		"title": "Frontend Entwickler",
-		"description": "Meine Aufgabe war die Entwicklung einer Webapplikation (Frontend) für die Kostenoptimierung, hierbei habe ich einige Designvorlagen und Funktionalitäten umgesetzt und implementiert."
+		"description": "Meine Aufgabe war die Entwicklung einer Webapplikation für die Kostenoptimierung, hierbei habe ich einige Designvorlagen und Funktionalitäten umgesetzt und implementiert."
 	},
 	"insignio": {
 		"title": "Ausbildung Fachinformatiker Anwengungsentwicklung",
-		"description": "Von Anpassungen von CRM- und Wordpress/Typo3-Systemen bis hin zur Erstellung von kompletten Webapplikationen."
+		"description": "Von Anpassungen von CRM- und Wordpress/Typo3-Systemen bis hin zur Erstellung von kompletten Webanwendungen."
 	}
 }
