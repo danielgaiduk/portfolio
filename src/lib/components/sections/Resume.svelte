@@ -134,9 +134,9 @@
 	<Headline type="h2">{$t('resume.headline')}</Headline>
 	{#each WORK_EXPERIENCE_MAPPING as { title, company, date, description, technologies }, i}
 		<div>
-			<Text class="font-bold uppercase text-2xl text-white">{title}</Text>
+			<Text class="font-bold uppercase text-white">{title}</Text>
 			<Text>{company} | {date}</Text>
-			<Text class="py-4 ">{description}</Text>
+			<Text class="py-4">{description}</Text>
 			{#if technologies?.length}
 				<Text class="font-bold">
 					{$t('resume.used_technologies')}:
@@ -144,7 +144,7 @@
 				<div class="flex flex-wrap gap-2 mt-4">
 					{#each technologies as technologie}
 						<Text
-							class="font-semibold text-white text-base"
+							class="font-semibold text-white"
 							wrapperClass="h-10 w-40 border border-primary-normal/50 rounded-l-lg rounded-r-lg flex items-center justify-center"
 						>
 							{technologie}
