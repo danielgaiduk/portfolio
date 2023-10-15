@@ -85,6 +85,6 @@
 				</FlyUp>
 			</div>
 		{/each}
-		<Text type="p" class="!text-sm">{$t('techstack.info')}</Text>
+		<Text type="p">{$t('techstack.info')}</Text>
 	</div>
 </Wrapper>
