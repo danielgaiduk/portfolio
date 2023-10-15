@@ -3,7 +3,6 @@
 		BootstrapIcon,
 		Css3Icon,
 		ExpressIcon,
-		FirebaseIcon,
 		FlyUp,
 		GraphQLIcon,
 		Headline,
@@ -14,19 +13,16 @@
 		MongoDBIcon,
 		MySQLIcon,
 		NextIcon,
-		NuxtIcon,
 		NodejsIcon,
 		PhpIcon,
 		PostgreSQLIcon,
 		ReactIcon,
-		RedisIcon,
 		ReduxIcon,
 		SassIcon,
 		SvelteIcon,
 		TailwindIcon,
 		Text,
 		TypeScriptIcon,
-		VueIcon,
 		Wrapper
 	} from '$lib/components'
 	import { t } from '$lib/translations'
@@ -44,13 +40,10 @@
 	]
 
 	const JAVASCRIPT_FRAMEWORK_MAPPING = [
-		{ Icon: SvelteIcon, label: 'Svelte' },
 		{ Icon: ReactIcon, label: 'React' },
 		{ Icon: NextIcon, label: 'Next' },
 		{ Icon: ReduxIcon, label: 'Redux' },
-		{ Icon: VueIcon, label: 'Vue' },
-		{ Icon: NuxtIcon, label: 'Nuxt' },
-		{ Icon: RedisIcon, label: 'Redis' },
+		{ Icon: SvelteIcon, label: 'Svelte' },
 		{ Icon: ExpressIcon, label: 'Express' },
 		{ Icon: JestIcon, label: 'Jest' }
 	]
@@ -66,8 +59,7 @@
 		{ Icon: GraphQLIcon, label: 'GraphQL' },
 		{ Icon: MySQLIcon, label: 'MySQL' },
 		{ Icon: PostgreSQLIcon, label: 'PostgreSQL' },
-		{ Icon: MongoDBIcon, label: 'MongoDB' },
-		{ Icon: FirebaseIcon, label: 'Firebase' }
+		{ Icon: MongoDBIcon, label: 'MongoDB' }
 	]
 
 	const TECHSTACK_MAPPING = [
@@ -93,6 +85,6 @@
 				</FlyUp>
 			</div>
 		{/each}
-		<Text type="p" class="text-sm">{$t('techstack.info')}</Text>
+		<Text type="p" class="!text-sm">{$t('techstack.info')}</Text>
 	</div>
 </Wrapper>
