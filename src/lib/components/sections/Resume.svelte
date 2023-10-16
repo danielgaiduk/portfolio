@@ -76,7 +76,16 @@
 			company: 'Gühnter-Gaiduk Immobilien',
 			date: '08/2021 - 12/2021',
 			description: $t('resume.gaiduk.description'),
-			technologies: ['HTML5', 'CSS3', 'TypeScript', 'React', 'Next', 'TailwindCSS', 'GraphQL']
+			technologies: [
+				'HTML5',
+				'CSS3',
+				'TypeScript',
+				'React',
+				'Next',
+				'TailwindCSS',
+				'Shadcn/UI',
+				'GraphQL'
+			]
 		},
 		{
 			title: $t('resume.swym.title'),
