@@ -72,6 +72,13 @@
 			technologies: ['HTML5', 'CSS3', 'JavaScript', 'PHP', 'Twig']
 		},
 		{
+			title: $t('resume.gaiduk.title'),
+			company: 'Gühnter-Gaiduk Immobilien',
+			date: '08/2021 - 12/2021',
+			description: $t('resume.gaiduk.description'),
+			technologies: ['HTML5', 'CSS3', 'TypeScript', 'React', 'Next', 'TailwindCSS', 'GraphQL']
+		},
+		{
 			title: $t('resume.swym.title'),
 			company: 'Swym',
 			date: '06/2021 - 08/2021',
@@ -87,13 +94,6 @@
 				'GraphQL',
 				'Cypress'
 			]
-		},
-		{
-			title: $t('resume.gaiduk.title'),
-			company: 'Gühnter-Gaiduk Immobilien',
-			date: '08/2021 - 12/2021',
-			description: $t('resume.gaiduk.description'),
-			technologies: ['HTML5', 'CSS3', 'TypeScript', 'React', 'Next', 'TailwindCSS', 'GraphQL']
 		},
 		{
 			title: $t('resume.quirin.title'),
