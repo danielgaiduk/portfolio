@@ -18,9 +18,7 @@
 				'TailwindCSS',
 				'Pocketbase',
 				'Prisma',
-				'Vitest',
-				'Playwright',
-				'Storybook'
+				'Vitest'
 			]
 		},
 		{
