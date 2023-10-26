@@ -1,15 +1,8 @@
-import { PUBLIC_ORIGIN } from '$env/static/public'
-
 export const prerender = true
 
-export async function GET(): Promise<Response> {
-	const body = ['User-agent: *', 'Allow: /', '', `Sitemap: ${PUBLIC_ORIGIN}/sitemap.xml`]
-		.join('\n')
-		.trim()
+export async function GET({ url }): Promise<Response> {
+	const body = ['User-agent: *', 'Allow: /', `Sitemap: ${url.origin}/sitemap.xml`]
+	const headers = { 'Content-Type': 'text/plain' }
 
-	const headers = {
-		'Content-Type': 'text/plain'
-	}
-
-	return new Response(body, { headers })
+	return new Response(body.join('\n').trim(), { headers })
 }
